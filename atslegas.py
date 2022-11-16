@@ -59,7 +59,7 @@ class App(customtkinter.CTk):
         self.frame_right.columnconfigure(2, weight=0)
 
         self.frame_info = customtkinter.CTkFrame(master=self.frame_right)
-        self.frame_info.grid(row=0, column=0, columnspan=2, rowspan=4, pady=20, padx=20, sticky="nsew")
+        self.frame_info.grid(row=0, column=0, columnspan=3, rowspan=1, pady=20, padx=20, sticky="nsew")
 
         # ============ frame_info ============
 
